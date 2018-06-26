@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ParkIt</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="parkit.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="navbar">
+            <button id="park" onclick="setParkingLocation()">Park</button>
+            Park It
+            <button id="retrieve" onclick="getParkingLocation()">Find</button>
+        </div>
+        <div id="container">
+            <div id="instructions">
+                <p>Click on the Park button to set the parking location</p>
+                <p>Click the find button to retrieve the parking location</p>
+                <p style="text-align:center"><button onclick="setCss('instructions','display','none')">Got It</button></p>
+            </div>
+        </div>
+        <div id="map">
+            
+        </div>
+        <div id="directions">
+            
+        </div>
+    </body>
+</html>
